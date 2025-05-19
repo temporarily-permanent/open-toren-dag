@@ -183,7 +183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 580190016799352534, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 300
+      value: 292
       objectReference: {fileID: 0}
     - target: {fileID: 580190016799352534, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
       propertyPath: m_SizeDelta.y
@@ -237,6 +237,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 580190016799352535, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
+      propertyPath: m_OverridePixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 580190016799352535, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
+      propertyPath: m_VertexColorAlwaysGammaSpace
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 580190016799352558, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
       propertyPath: m_Name
       value: MusicPlayer
@@ -257,6 +265,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5841502703621181966, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5841502703621181967, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -271,6 +283,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5841502703621181967, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356522432075991112, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
+      propertyPath: m_VerticalFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356522432075991112, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
+      propertyPath: m_HorizontalFit
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7107621071617616409, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
@@ -292,10 +312,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5841502703621181968, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6796987115124477493}
   m_SourcePrefab: {fileID: 100100000, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
 --- !u!224 &2373760382025891725 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 580190016799352534, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
   m_PrefabInstance: {fileID: 2953364934634887515}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8785777407586126667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5841502703621181968, guid: 205e2abe61f76054b966963b5d50f0ba, type: 3}
+  m_PrefabInstance: {fileID: 2953364934634887515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6796987115124477493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8785777407586126667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226ec0956a9a4bf9a885d065cdf108b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  organMusic:
+  - {fileID: 8300000, guid: 422861d175461564892ead9ddd9600e7, type: 3}
