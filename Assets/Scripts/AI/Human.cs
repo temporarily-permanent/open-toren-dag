@@ -5,8 +5,8 @@ using UnityEngine.AI;
 
 public class Human : MonoBehaviour
 {
+    [SerializeField]
     private float moveSpeed = 3f;
-
     private NavMeshAgent agent;
 
     private void Start()
