@@ -2078,6 +2078,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6796987115124477493, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
+      propertyPath: organMusic.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796987115124477493, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
+      propertyPath: organMusic.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 432924f66e9bf9a4688c4bbd3cd0d74d, type: 3}
     - target: {fileID: 7083908201504926721, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
