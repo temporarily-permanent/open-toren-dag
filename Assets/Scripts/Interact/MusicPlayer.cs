@@ -5,7 +5,7 @@ using UnityEngine.UI;
 /// <summary>
 /// A script that plays music based on the selected item in a dropdown menu.
 /// </summary>
-public class Interactivity : MonoBehaviour
+public class MusicPlayer : MonoBehaviour
 {
     /// <summary>
     /// A list of audio clips that contain the organ music.
