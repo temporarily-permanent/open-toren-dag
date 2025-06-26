@@ -4,7 +4,7 @@
 #
 
 # rider
-.idea
+/.idea/
 
 .utmp/
 /[Ll]ibrary/
