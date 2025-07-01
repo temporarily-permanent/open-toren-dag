@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FutureScene.unity
+    path: Assets/Scenes/mergeConflictCircumvention/FutureScene.unity
     guid: a0dda7385d6a70c42b30659439f49a9b
   - enabled: 1
     path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/DemoScene.unity
